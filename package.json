@@ -1,0 +1,32 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:selenium": "mocha tests/selenium --recursive --timeout 30000",
+    "test:playwright": "playwright test",
+    "test": "npm run test:selenium && npm run test:playwright"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normscarreon/Demo-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/normscarreon/Demo-Project/issues"
+  },
+  "homepage": "https://github.com/normscarreon/Demo-Project#readme",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "date-fns": "^4.1.0",
+    "selenium-webdriver": "^4.32.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "mocha": "^11.2.2"
+  }
+}
