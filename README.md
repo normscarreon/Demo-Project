@@ -1,5 +1,3 @@
-Sure! Here's the updated README to include the steps and guidelines for setting up Playwright in the same project:
-
 # Selenium WebDriver and Playwright Test Automation Project
 
 This project automates web testing using **Selenium WebDriver** with **Mocha** and **Chai** for assertion handling, and **Playwright** for end-to-end testing.
@@ -80,7 +78,7 @@ npm run test:playwright
 #### **Execute Selenium Tests**
 Run all test files inside the `tests/selenium` directory:
 ```sh
-npm test
+npm run test:selenium
 ```
 
 #### **Execute Playwright Tests**
